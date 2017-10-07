@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrbitsHelpViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrD-CE-obQ">
+                    <rect key="frame" x="8" y="0.0" width="37" height="30"/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="done:" destination="-1" eventType="touchUpInside" id="d2D-iE-Vif"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nkf-QJ-pPZ">
+                    <rect key="frame" x="8" y="38" width="584" height="554"/>
+                    <string key="text">This app simulates the behaviour of bodies moving under the influence of mutual gravitational forces.
+
+The app has two modes of operation, “Normal” and “Central sun”. The mode of operation can be changed by tapping “Settings” at the top left of the screen and selecting the desired mode. To hide the settings, tap “Settings” again”.
+
+In “Normal” mode you start with a blank canvas, and can place bodies of different types with varying initial velocities and watch the system evolve. To add a new body, select the body type, tap, and drag. The white curve will give an estimate of the initial path of the body.
+
+In “Central sun” mode you start with a sun-sized body in the centre of the screen, and can place bodies which initially move in a circular orbit around the central sun.  To add a new body, select the body type, and tap. The program will do its best to place the new body in a circular orbit around the initial sun.
+
+Zoom and pan gestures with two fingers should work as expected.
+
+The type of the next body to be placed is selected on the list at the bottom of the screen. In normal mode the body types available are:
+
+Earth (1 Earth mass)
+Super Earth (5 Earth masses)
+Ice giant (15 Earth masses)
+Gas giant (300 Earth masses)
+Brown dwarf (5,000 Earth masses)
+Dwarf star (30,000 Earth masses)
+Sun (330,000 Earth masses)
+
+In “Central sun” mode, the “Sun” option is not available.
+
+Apart from the “Mode” setting, other settings available are:
+
+Speed - slow down or speed up the motion of the bodies
+Show trails - if on, will show the path of each body over the last few seconds
+Reset - clear all bodies from the current list
+Help - display this text
+
+Bodies are shown in the centre of mass (CM) frame. This may cause some apparently odd behaviour, especially when adding a massive body moving at high speed, but on the whole it works well at keeping as many bodies on screen as possible.
+
+The number of bodies is capped at 200 for computational reasons. Bodies that drift too far off screen are quietly removed from the list, which may also occasionally result in odd behaviour when the CM frame velocity is re-calculated without the missing body.
+
+A best attempt has been made to achieve accurate results within the limitations of the computational power available on the iPad. However, given the nature of the inverse square law this is not always successful, especially when the distance between two bodies is close to zero and the force approaches infinity. To avoid division by zero at r=0, a bodge factor, aka “easing factor”, aka “accommodation coefficient” is applied. Cranking up the speed and showing trails at the same time may cause inaccuracies to become particularly apparent, especially in the case of highly elliptical orbits and when bodies are close together.
+
+</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nkf-QJ-pPZ" firstAttribute="top" secondItem="qrD-CE-obQ" secondAttribute="bottom" constant="8" id="BJo-gW-Gzg"/>
+                <constraint firstItem="qrD-CE-obQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="TNv-af-Jg0"/>
+                <constraint firstItem="nkf-QJ-pPZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="UB0-Jd-20y"/>
+                <constraint firstItem="qrD-CE-obQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="eTL-eI-eGI"/>
+                <constraint firstAttribute="trailing" secondItem="nkf-QJ-pPZ" secondAttribute="trailing" constant="8" id="w0L-Ic-5SJ"/>
+                <constraint firstAttribute="bottom" secondItem="nkf-QJ-pPZ" secondAttribute="bottom" constant="8" id="wpW-hf-Usm"/>
+            </constraints>
+            <point key="canvasLocation" x="466" y="475"/>
+        </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LFy-Z6-Moi">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <state key="normal" title="Button"/>
+            <point key="canvasLocation" x="362" y="292"/>
+        </button>
+    </objects>
+</document>

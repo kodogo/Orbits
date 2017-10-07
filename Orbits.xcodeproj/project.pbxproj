@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690801851BC4DD66002CFD31 /* OrbitsHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690801831BC4DD66002CFD31 /* OrbitsHelpViewController.m */; };
+		690801861BC4DD66002CFD31 /* OrbitsHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690801841BC4DD66002CFD31 /* OrbitsHelpViewController.xib */; };
+		692A06EE1B9700B800EB6B25 /* browndwarf.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06E51B9700B800EB6B25 /* browndwarf.png */; };
+		692A06EF1B9700B800EB6B25 /* dwarfstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06E61B9700B800EB6B25 /* dwarfstar.png */; };
+		692A06F01B9700B800EB6B25 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06E71B9700B800EB6B25 /* earth.png */; };
+		692A06F11B9700B800EB6B25 /* gasgiant.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06E81B9700B800EB6B25 /* gasgiant.png */; };
+		692A06F21B9700B800EB6B25 /* giantstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06E91B9700B800EB6B25 /* giantstar.png */; };
+		692A06F31B9700B800EB6B25 /* icegiant.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06EA1B9700B800EB6B25 /* icegiant.png */; };
+		692A06F41B9700B800EB6B25 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06EB1B9700B800EB6B25 /* sun.png */; };
+		692A06F51B9700B800EB6B25 /* superearth.png in Resources */ = {isa = PBXBuildFile; fileRef = 692A06EC1B9700B800EB6B25 /* superearth.png */; };
+		692A06F61B9700B800EB6B25 /* template.pxm in Resources */ = {isa = PBXBuildFile; fileRef = 692A06ED1B9700B800EB6B25 /* template.pxm */; };
+		69379D371B8D397E00330F4B /* OrbitsSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69379D361B8D397E00330F4B /* OrbitsSettingsView.m */; };
+		699629AF1B7ECC2F00292B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 699629AE1B7ECC2F00292B42 /* main.m */; };
+		699629B21B7ECC2F00292B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 699629B11B7ECC2F00292B42 /* AppDelegate.m */; };
+		699629B41B7ECC2F00292B42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699629B31B7ECC2F00292B42 /* Images.xcassets */; };
+		699629B71B7ECC2F00292B42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699629B51B7ECC2F00292B42 /* LaunchScreen.xib */; };
+		699629C31B7ECC2F00292B42 /* OrbitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699629C21B7ECC2F00292B42 /* OrbitsTests.m */; };
+		699629CE1B7ECC7700292B42 /* OrbitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699629CD1B7ECC7700292B42 /* OrbitsViewController.m */; };
+		699629D01B7ECCD600292B42 /* OrbitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699629CF1B7ECCD600292B42 /* OrbitsViewController.xib */; };
+		699629DA1B7ED03800292B42 /* BodyList.c in Sources */ = {isa = PBXBuildFile; fileRef = 699629D21B7ED03800292B42 /* BodyList.c */; };
+		699629DB1B7ED03800292B42 /* OrbitsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 699629D51B7ED03800292B42 /* OrbitsView.m */; };
+		699629DC1B7ED03800292B42 /* Vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 699629D61B7ED03800292B42 /* Vector.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		699629BD1B7ECC2F00292B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699629A11B7ECC2F00292B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699629A81B7ECC2F00292B42;
+			remoteInfo = Orbits;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		690801821BC4DD66002CFD31 /* OrbitsHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitsHelpViewController.h; sourceTree = "<group>"; };
+		690801831BC4DD66002CFD31 /* OrbitsHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitsHelpViewController.m; sourceTree = "<group>"; };
+		690801841BC4DD66002CFD31 /* OrbitsHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrbitsHelpViewController.xib; sourceTree = "<group>"; };
+		692A06E51B9700B800EB6B25 /* browndwarf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browndwarf.png; sourceTree = "<group>"; };
+		692A06E61B9700B800EB6B25 /* dwarfstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dwarfstar.png; sourceTree = "<group>"; };
+		692A06E71B9700B800EB6B25 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		692A06E81B9700B800EB6B25 /* gasgiant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gasgiant.png; sourceTree = "<group>"; };
+		692A06E91B9700B800EB6B25 /* giantstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giantstar.png; sourceTree = "<group>"; };
+		692A06EA1B9700B800EB6B25 /* icegiant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icegiant.png; sourceTree = "<group>"; };
+		692A06EB1B9700B800EB6B25 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		692A06EC1B9700B800EB6B25 /* superearth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superearth.png; sourceTree = "<group>"; };
+		692A06ED1B9700B800EB6B25 /* template.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = template.pxm; sourceTree = "<group>"; };
+		69379D351B8D397E00330F4B /* OrbitsSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitsSettingsView.h; sourceTree = "<group>"; };
+		69379D361B8D397E00330F4B /* OrbitsSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitsSettingsView.m; sourceTree = "<group>"; };
+		699629A91B7ECC2F00292B42 /* Orbits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbits.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		699629AD1B7ECC2F00292B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699629AE1B7ECC2F00292B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		699629B01B7ECC2F00292B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		699629B11B7ECC2F00292B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		699629B31B7ECC2F00292B42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		699629B61B7ECC2F00292B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		699629BC1B7ECC2F00292B42 /* OrbitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		699629C11B7ECC2F00292B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699629C21B7ECC2F00292B42 /* OrbitsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitsTests.m; sourceTree = "<group>"; };
+		699629CC1B7ECC7700292B42 /* OrbitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitsViewController.h; sourceTree = "<group>"; };
+		699629CD1B7ECC7700292B42 /* OrbitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitsViewController.m; sourceTree = "<group>"; };
+		699629CF1B7ECCD600292B42 /* OrbitsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrbitsViewController.xib; sourceTree = "<group>"; };
+		699629D11B7ED03800292B42 /* Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		699629D21B7ED03800292B42 /* BodyList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BodyList.c; sourceTree = "<group>"; };
+		699629D31B7ED03800292B42 /* BodyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyList.h; sourceTree = "<group>"; };
+		699629D41B7ED03800292B42 /* OrbitsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitsView.h; sourceTree = "<group>"; };
+		699629D51B7ED03800292B42 /* OrbitsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitsView.m; sourceTree = "<group>"; };
+		699629D61B7ED03800292B42 /* Vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Vector.c; sourceTree = "<group>"; };
+		699629D71B7ED03800292B42 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		699629A61B7ECC2F00292B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699629B91B7ECC2F00292B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		692A06E41B97008700EB6B25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				692A06E51B9700B800EB6B25 /* browndwarf.png */,
+				692A06E61B9700B800EB6B25 /* dwarfstar.png */,
+				692A06E71B9700B800EB6B25 /* earth.png */,
+				692A06E81B9700B800EB6B25 /* gasgiant.png */,
+				692A06E91B9700B800EB6B25 /* giantstar.png */,
+				692A06EA1B9700B800EB6B25 /* icegiant.png */,
+				692A06EB1B9700B800EB6B25 /* sun.png */,
+				692A06EC1B9700B800EB6B25 /* superearth.png */,
+				692A06ED1B9700B800EB6B25 /* template.pxm */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		699629A01B7ECC2F00292B42 = {
+			isa = PBXGroup;
+			children = (
+				699629AB1B7ECC2F00292B42 /* Orbits */,
+				699629BF1B7ECC2F00292B42 /* OrbitsTests */,
+				699629AA1B7ECC2F00292B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		699629AA1B7ECC2F00292B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				699629A91B7ECC2F00292B42 /* Orbits.app */,
+				699629BC1B7ECC2F00292B42 /* OrbitsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699629AB1B7ECC2F00292B42 /* Orbits */ = {
+			isa = PBXGroup;
+			children = (
+				692A06E41B97008700EB6B25 /* Images */,
+				699629D11B7ED03800292B42 /* Body.h */,
+				699629D21B7ED03800292B42 /* BodyList.c */,
+				699629D31B7ED03800292B42 /* BodyList.h */,
+				699629D41B7ED03800292B42 /* OrbitsView.h */,
+				699629D51B7ED03800292B42 /* OrbitsView.m */,
+				699629D61B7ED03800292B42 /* Vector.c */,
+				699629D71B7ED03800292B42 /* Vector.h */,
+				699629B01B7ECC2F00292B42 /* AppDelegate.h */,
+				699629B11B7ECC2F00292B42 /* AppDelegate.m */,
+				699629B31B7ECC2F00292B42 /* Images.xcassets */,
+				699629B51B7ECC2F00292B42 /* LaunchScreen.xib */,
+				699629AC1B7ECC2F00292B42 /* Supporting Files */,
+				699629CC1B7ECC7700292B42 /* OrbitsViewController.h */,
+				699629CD1B7ECC7700292B42 /* OrbitsViewController.m */,
+				699629CF1B7ECCD600292B42 /* OrbitsViewController.xib */,
+				69379D351B8D397E00330F4B /* OrbitsSettingsView.h */,
+				69379D361B8D397E00330F4B /* OrbitsSettingsView.m */,
+				690801821BC4DD66002CFD31 /* OrbitsHelpViewController.h */,
+				690801831BC4DD66002CFD31 /* OrbitsHelpViewController.m */,
+				690801841BC4DD66002CFD31 /* OrbitsHelpViewController.xib */,
+			);
+			path = Orbits;
+			sourceTree = "<group>";
+		};
+		699629AC1B7ECC2F00292B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				699629AD1B7ECC2F00292B42 /* Info.plist */,
+				699629AE1B7ECC2F00292B42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		699629BF1B7ECC2F00292B42 /* OrbitsTests */ = {
+			isa = PBXGroup;
+			children = (
+				699629C21B7ECC2F00292B42 /* OrbitsTests.m */,
+				699629C01B7ECC2F00292B42 /* Supporting Files */,
+			);
+			path = OrbitsTests;
+			sourceTree = "<group>";
+		};
+		699629C01B7ECC2F00292B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				699629C11B7ECC2F00292B42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		699629A81B7ECC2F00292B42 /* Orbits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699629C61B7ECC2F00292B42 /* Build configuration list for PBXNativeTarget "Orbits" */;
+			buildPhases = (
+				699629A51B7ECC2F00292B42 /* Sources */,
+				699629A61B7ECC2F00292B42 /* Frameworks */,
+				699629A71B7ECC2F00292B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orbits;
+			productName = Orbits;
+			productReference = 699629A91B7ECC2F00292B42 /* Orbits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		699629BB1B7ECC2F00292B42 /* OrbitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699629C91B7ECC2F00292B42 /* Build configuration list for PBXNativeTarget "OrbitsTests" */;
+			buildPhases = (
+				699629B81B7ECC2F00292B42 /* Sources */,
+				699629B91B7ECC2F00292B42 /* Frameworks */,
+				699629BA1B7ECC2F00292B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699629BE1B7ECC2F00292B42 /* PBXTargetDependency */,
+			);
+			name = OrbitsTests;
+			productName = OrbitsTests;
+			productReference = 699629BC1B7ECC2F00292B42 /* OrbitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		699629A11B7ECC2F00292B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ajs;
+				TargetAttributes = {
+					699629A81B7ECC2F00292B42 = {
+						CreatedOnToolsVersion = 6.4;
+						ProvisioningStyle = Manual;
+					};
+					699629BB1B7ECC2F00292B42 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = M5M8GHBC23;
+						TestTargetID = 699629A81B7ECC2F00292B42;
+					};
+				};
+			};
+			buildConfigurationList = 699629A41B7ECC2F00292B42 /* Build configuration list for PBXProject "Orbits" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 699629A01B7ECC2F00292B42;
+			productRefGroup = 699629AA1B7ECC2F00292B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				699629A81B7ECC2F00292B42 /* Orbits */,
+				699629BB1B7ECC2F00292B42 /* OrbitsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		699629A71B7ECC2F00292B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692A06F31B9700B800EB6B25 /* icegiant.png in Resources */,
+				692A06EF1B9700B800EB6B25 /* dwarfstar.png in Resources */,
+				692A06F41B9700B800EB6B25 /* sun.png in Resources */,
+				692A06F61B9700B800EB6B25 /* template.pxm in Resources */,
+				699629B71B7ECC2F00292B42 /* LaunchScreen.xib in Resources */,
+				692A06F01B9700B800EB6B25 /* earth.png in Resources */,
+				692A06EE1B9700B800EB6B25 /* browndwarf.png in Resources */,
+				699629B41B7ECC2F00292B42 /* Images.xcassets in Resources */,
+				692A06F21B9700B800EB6B25 /* giantstar.png in Resources */,
+				692A06F51B9700B800EB6B25 /* superearth.png in Resources */,
+				692A06F11B9700B800EB6B25 /* gasgiant.png in Resources */,
+				699629D01B7ECCD600292B42 /* OrbitsViewController.xib in Resources */,
+				690801861BC4DD66002CFD31 /* OrbitsHelpViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699629BA1B7ECC2F00292B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		699629A51B7ECC2F00292B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690801851BC4DD66002CFD31 /* OrbitsHelpViewController.m in Sources */,
+				699629DC1B7ED03800292B42 /* Vector.c in Sources */,
+				699629B21B7ECC2F00292B42 /* AppDelegate.m in Sources */,
+				699629DB1B7ED03800292B42 /* OrbitsView.m in Sources */,
+				699629DA1B7ED03800292B42 /* BodyList.c in Sources */,
+				699629AF1B7ECC2F00292B42 /* main.m in Sources */,
+				699629CE1B7ECC7700292B42 /* OrbitsViewController.m in Sources */,
+				69379D371B8D397E00330F4B /* OrbitsSettingsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699629B81B7ECC2F00292B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699629C31B7ECC2F00292B42 /* OrbitsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699629BE1B7ECC2F00292B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699629A81B7ECC2F00292B42 /* Orbits */;
+			targetProxy = 699629BD1B7ECC2F00292B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		699629B51B7ECC2F00292B42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699629B61B7ECC2F00292B42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		699629C41B7ECC2F00292B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8ea2661f-324f-4681-bbeb-48381d448c88";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		699629C51B7ECC2F00292B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andrew Simmons (M5M8GHBC23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andrew Simmons (M5M8GHBC23)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8ea2661f-324f-4681-bbeb-48381d448c88";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		699629C71B7ECC2F00292B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Orbits/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodogo.orbits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		699629C81B7ECC2F00292B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Orbits/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodogo.orbits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		699629CA1B7ECC2F00292B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrbitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kodogo-Enterprises.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbits.app/Orbits";
+			};
+			name = Debug;
+		};
+		699629CB1B7ECC2F00292B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrbitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kodogo-Enterprises.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbits.app/Orbits";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		699629A41B7ECC2F00292B42 /* Build configuration list for PBXProject "Orbits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699629C41B7ECC2F00292B42 /* Debug */,
+				699629C51B7ECC2F00292B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699629C61B7ECC2F00292B42 /* Build configuration list for PBXNativeTarget "Orbits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699629C71B7ECC2F00292B42 /* Debug */,
+				699629C81B7ECC2F00292B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699629C91B7ECC2F00292B42 /* Build configuration list for PBXNativeTarget "OrbitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699629CA1B7ECC2F00292B42 /* Debug */,
+				699629CB1B7ECC2F00292B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 699629A11B7ECC2F00292B42 /* Project object */;
+}
